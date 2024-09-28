@@ -17,7 +17,7 @@ model = ChatOpenAI(model = model_name)
 prompt_template = ChatPromptTemplate.from_template(""" Translate below text into {language} \
                                                         text : {text} """)
 
-# Create a chain
+# Create a chain˛
 chain = prompt_template | model | StrOutputParser()
 
 # # test the chain
