@@ -46,6 +46,7 @@ numpy==1.26.4
 openai==1.44.0
 orjson==3.10.7
 packaging==24.1
+pandas==2.2.3
 parso==0.8.4
 pexpect==4.9.0
 platformdirs==4.3.2
@@ -59,6 +60,7 @@ Pygments==2.18.0
 pyproject-toml==0.0.10
 python-dateutil==2.9.0.post0
 python-dotenv==1.0.1
+pytz==2024.2
 PyYAML==6.0.2
 pyzmq==26.2.0
 referencing==0.35.1
